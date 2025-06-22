@@ -88,7 +88,7 @@ The project follows a sequential process to compute TF-IDF scores and perform do
    python main.py
    ```
 
-## 📄 Usage
+##  Usage
 - Place the dataset (`small_dataset` or full ACL dataset) in the project directory.
 - Run the script to process documents and compute TF-IDF scores.
 - Search with `DocumentSearch(query)`, e.g.:
