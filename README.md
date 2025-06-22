@@ -1,8 +1,8 @@
-# 📜 TF-IDF Document Search
+#  TF-IDF Document Search
 
 A Python-based project for processing and searching text documents from the ACL dataset using TF-IDF (Term Frequency-Inverse Document Frequency) techniques.
 
-## ✨ Features
+##  Features
 - Reads and processes `.txt` files from the ACL dataset
 - Converts documents to word lists with `wordList(doc)`
 - Removes punctuation, newlines, stopwords, and converts to lowercase with `removePuncs(wordList)`
@@ -23,7 +23,12 @@ A Python-based project for processing and searching text documents from the ACL 
   - Semantic evaluations
   - System results and combination
 
-## 🧮 Code Flow
+##  Dataset
+- The full ACL dataset (`ACL txt.zip`) is available online at the [ACL website](https://www.aclweb.org/).
+- Due to its large size, a smaller dataset (`small_dataset`) is included in `./small_dataset/`.
+
+
+##  Code Flow
 
 The project follows a sequential process to compute TF-IDF scores and perform document search:
 
@@ -62,15 +67,12 @@ The project follows a sequential process to compute TF-IDF scores and perform do
 6. **Perform Document Search**:
    - Use `DocumentSearch(query)` to rank and return the top 5 documents based on TF-IDF scores for the query.
 
-## 📂 Dataset
-- The full ACL dataset (`ACL txt.zip`) is available online at the [ACL website](https://www.aclweb.org/).
-- Due to its large size, a smaller dataset (`small_dataset`) is included in `./small_dataset/`.
 
-## 🛠️ Technologies
+##  Technologies
 - Python 3.x
 - Libraries: `os`, `string`, `math`, `collections`
 
-## 📦 Setup
+##  Setup
 1. Clone the repository:
    ```bash
    git clone https://github.com/https://github.com/afsahurrehman11/NLP-TF-IDF-Search-Pipeline.git
@@ -95,7 +97,7 @@ The project follows a sequential process to compute TF-IDF scores and perform do
   ```
 - Outputs top 5 documents ranked by TF-IDF scores.
 
-## 📝 Notes
+## Note
 - Code is clear and well-commented for readability.
 - A predefined stopwords list is required for `removePuncs(wordList)`.
 - Refer to the [ACL documentation](https://www.aclweb.org/) for full dataset details.
